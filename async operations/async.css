@@ -36,7 +36,8 @@ button:hover {
   top: 70px;
   width: 500px;
 }
-select {
+select,
+input {
   border: 2px solid #6b2600;
   font-size: 18px;
   font-weight: 400;
@@ -47,5 +48,9 @@ select {
 .item {
   height: 300px;
   margin: 20px;
+  margin-bottom: 5px;
   width: 300px;
+}
+.block {
+  display: inline-block;
 }
