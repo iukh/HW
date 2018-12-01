@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.wrapper {
+  text-align: center;
+}
+button {
+  background-color: #6b2600;
+  border: 1px solid black;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px auto;
+  padding: 10px 20px;
+  position: relative;
+  text-transform: uppercase;
+  width: 200px;
+}
+button:hover {
+  background-color: #4a1b01;
+}
+.selectItemPopup {
+  background-color: white;
+  border: 2px solid black;
+  display: none;
+  height: auto;
+  left: 50%;
+  margin-left: -250px;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 500px;
+}
+select {
+  border: 2px solid #6b2600;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px auto;
+  padding: 10px 10px;
+  width: 200px;
+}
+.item {
+  height: 300px;
+  margin: 20px;
+  width: 300px;
+}
