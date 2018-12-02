@@ -1,9 +1,9 @@
 function stringMessage() {
   return Array.prototype.join.call(arguments[0]," ");
 };
-cpLog = console.log;
-cpWarn = console.warn;
-cpError = console.error;
+let cpLog = console.log;
+let cpWarn = console.warn;
+let cpError = console.error;
 
 console.log = function(){
   localStorage.setItem('Last Log', stringMessage(arguments))
